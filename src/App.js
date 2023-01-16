@@ -26,7 +26,6 @@ function App() {
 
   return (
     <div className='App'>
-      
 
       <div className='contenedor-calculadora'>
         <Pantalla input={input}/>
