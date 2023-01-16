@@ -26,13 +26,7 @@ function App() {
 
   return (
     <div className='App'>
-      <div className='img-logo'>
-        <img 
-        className='img-logo-0'
-        src={logoImg}
-        alt='Logo img'
-        />
-      </div>
+      
 
       <div className='contenedor-calculadora'>
         <Pantalla input={input}/>
