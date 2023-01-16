@@ -2,7 +2,6 @@ import './App.css';
 import Boton from './componentes/Boton';
 import BotonClear from './componentes/BotonClear';
 import Pantalla from './componentes/Pantalla';
-import logoImg from './img/img-logo.png';
 import { useState } from 'react';
 import { evaluate } from 'mathjs';
 import Igual from './componentes/Igual';
@@ -26,9 +25,7 @@ function App() {
 
   return (
     <div className='App'>
-      <div className=''>
-        <h3>Calculadora</h3>
-      </div>
+      
       <div className='contenedor-calculadora'>
         <Pantalla input={input}/>
         <div className='fila'>
