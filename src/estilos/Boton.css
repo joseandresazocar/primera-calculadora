@@ -1,0 +1,50 @@
+.boton-contenedor {
+  height: 55px;
+  display: flex;
+  flex: 1 1;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 28px;
+  background-color: rgb(19, 19, 19);
+  color: white;
+  border-radius: 25px;
+  border: 2px solid white;
+  margin: 4px;
+  cursor: pointer;
+  user-select: none;  
+}
+
+.boton-contenedor:hover {
+  background-color: #5a01a7;
+
+}
+
+.operador {
+  background-color: #00471b;
+}
+
+.operador:hover {
+  background-color: #4261b8;
+}
+
+.igual {
+  height: 55px;
+  display: flex;
+  flex: 1 1;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 28px;
+  background-color: #500086;
+  color: white;
+  border-radius: 25px;
+  border: 2px solid white;
+  margin: 4px;
+  cursor: pointer;
+  user-select: none;  
+}
+
+.igual:hover {
+  background-color: #4261b8;
+}
